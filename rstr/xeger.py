@@ -4,7 +4,7 @@ from itertools import chain
 import typing
 from typing import Any, Callable, Dict, Mapping, Pattern, Sequence, Union
 
-from rstr.rstr_base import RstrBase
+from .rstr_base import RstrBase
 
 if typing.TYPE_CHECKING:
     from random import Random
